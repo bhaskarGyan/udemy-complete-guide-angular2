@@ -11,6 +11,7 @@ import {RecipesComponent} from './Components/recipes/recipes.component';
 import { RecipeItemComponent } from './Components/recipes/recipe-list/recipe-item.component';
 import { ShoppingListComponent } from './Components/shopping-list/shopping-list.component';
 import { ShoppingListAddComponent } from './Components/shopping-list/shopping-list-add.component';
+import { DropDownDirective } from './Directives/drop-down.directive';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ShoppingListAddComponent } from './Components/shopping-list/shopping-li
     HeaderComponent,
     RecipeItemComponent,
     ShoppingListComponent,
-    ShoppingListAddComponent
+    ShoppingListAddComponent,
+    DropDownDirective
   ],
   imports: [
     BrowserModule,
